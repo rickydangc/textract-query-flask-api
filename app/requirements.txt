@@ -1,6 +1,4 @@
+pandas
+numpy
 Flask
 Flask-RESTful
-Flask-SQLAlchemy
-uwsgi
-mysqlclient
-flask_cors
