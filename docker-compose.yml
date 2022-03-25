@@ -1,0 +1,12 @@
+version: "2"
+
+volumes:
+  dbdata_api:
+
+services:
+  app:
+    build: ./app
+    links:
+      - db
+    ports:
+      - "5000:5000"
